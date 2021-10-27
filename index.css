@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Merienda', cursive;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    background-color: #40F99B;
+    color: #003554;
+    padding: 10px;
+    margin: 25px 25px 25px 25px;
+    width: auto;
+    font-family: 'Merienda', cursive;
+}
+
+#name {
+    font-size: 2rem;
+    font-variant: small-caps;
+}
+
+nav {
+    display: grid;
+    place-items: center;
+}
+
+li, a {
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+    color: #003554;
+    padding-right: 5px;
+}
+
+body, main {
+    background-color: #5F021F;
+}
+
+.ontop {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 70vh;
+    place-content: center;
+    place-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#main {
+    height: 300px;
+    width: 500px;
+}
+
+.headtitle {
+    background-color: #E54B4B;
+    border-radius: 8px;
+    height: fit-content;
+}
+
+.headtitle h1 {
+    color: #40F99B;
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+p {
+    padding: 10px;
+    display: grid;
+    text-align: start;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Marienda', cursive;
+    color: #E54B4B;
+    padding: 10px;
+}
+
+.my-projects h2 {
+    color: #003554;
+}
+
+.my-projects {
+    background-color: #E54B4B;
+    padding: 40px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    place-content: center;
+    margin: auto;
+    width: 70%;
+    gap: 15px;
+}
+
+.swine-meeper, .lottery-picker, .ios-stopwatch {
+    background-color: #5F021F;
+    color: #40F99B;
+    border-radius: 8px;
+    display: grid;
+    grid-template-rows: 85px 20px 70px 40px;
+    gap: 10px;
+}
+
+img {
+    width: 300px;
+    height: 100px;
+}
+
+#icon {
+    width: 30px;
+    height: 25px;
+    display: inline-grid;
+}
+
+.experience {
+    display: inline-grid;
+    gap: 10px;
+    grid-template-rows: repeat(4, 50px);
+    width: auto;
+    text-align: start;
+}
+
+.my-experience {
+    display: grid;
+    place-content: center;
+    background-color: #003554;
+    align-content: center;
+    padding: 30px;
+}
+
+.hoxton, .boolean, .flatiron-master, .flatiron-lead {
+    border-radius: 8px;
+    color: #40F99B;
+    background-color: #5F021F;
+}
+
+.hoxton p, .boolean p, .flatiron-lead p, .flatiron-master p {
+    display: inline-grid;
+}
+
+#back-to-top {
+    width: auto;
+    text-align: center;
+    background-color: black;
+}
+
+#back-to-top a {
+    color: #40F99B;
+}
+
+.project-title {
+    color: #40F99B;
+    text-align: start;
+    padding: 5px 0px 0px 10px;
+}
+
+.projects a {
+    background-color: #003554;
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+
+.ios-stopwatch a {
+    height: 32px;
+}
+
+.scroll-down a {
+    width: auto;
+    color: #40F99B;
+    display: grid;
+    place-items: center;
+    margin-bottom: 20px;
+}
